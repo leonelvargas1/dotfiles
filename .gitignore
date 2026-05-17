@@ -1,0 +1,29 @@
+#Logs
+*.log
+
+#Environment files
+.env
+.env.*
+
+#Keys
+*.key
+*.pem
+
+#Cache
+.cache/
+.local/
+
+#History files
+.bash_history
+.zsh_history
+
+#SSH and GPG
+.ssh/
+.gnupg/
+
+#Python
+__pycache__/
+*pyc
+
+#Node
+node_modules/
