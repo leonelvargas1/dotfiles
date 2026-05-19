@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chosen=$(printf "Apagar\nReiniciar\nCerrar sesión" | wofi --dmenu)
+chosen=$(printf "Power off\nRestart\nLog out" | wofi --dmenu)
 
 case "$chosen" in
     "Power off") systemctl poweroff ;;
